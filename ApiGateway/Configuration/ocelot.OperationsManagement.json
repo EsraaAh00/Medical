@@ -30,7 +30,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Operation/Ticket/{everything}",
       "SwaggerKey": "OperationsManagement",
       "ServiceName": "OperationsManagement",

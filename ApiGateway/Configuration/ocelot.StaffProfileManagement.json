@@ -6,7 +6,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/Staff/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",
@@ -18,7 +18,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/Search/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",
@@ -30,7 +30,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/StaffAward/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",
@@ -42,7 +42,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/StaffExperience/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",
@@ -54,7 +54,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/StaffRequest/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",
@@ -66,7 +66,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Staff/StaffWorkSchedule/{everything}",
       "SwaggerKey": "StaffProfileManagement",
       "ServiceName": "StaffProfileManagement",

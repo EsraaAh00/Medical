@@ -6,7 +6,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/System/Crm/Complaint/{everything}",
       "SwaggerKey": "ClientRelationMangement",
       "ServiceName": "ClientRelationMangement",
@@ -18,7 +18,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/System/Crm/ComplaintAction/{everything}",
       "SwaggerKey": "ClientRelationMangement",
       "ServiceName": "ClientRelationMangement",
@@ -30,7 +30,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/System/Crm/Sanction/{everything}",
       "SwaggerKey": "ClientRelationMangement",
       "ServiceName": "ClientRelationMangement",

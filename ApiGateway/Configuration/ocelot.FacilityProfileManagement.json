@@ -6,7 +6,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Facility/Facility/{everything}",
       "SwaggerKey": "FacilityProfileManagement",
       "ServiceName": "FacilityProfileManagement",
@@ -18,7 +18,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Facility/FacilityListing/{everything}",
       "SwaggerKey": "FacilityProfileManagement",
       "ServiceName": "FacilityProfileManagement",
@@ -30,7 +30,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Facility/FacilityRequest/{everything}",
       "SwaggerKey": "FacilityProfileManagement",
       "ServiceName": "FacilityProfileManagement",
@@ -42,7 +42,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Facility/FacilityWorkSchedule/{everything}",
       "SwaggerKey": "FacilityProfileManagement",
       "ServiceName": "FacilityProfileManagement",
@@ -54,7 +54,7 @@
         "Get",
         "Post"
       ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Facility/Search/{everything}",
       "SwaggerKey": "FacilityProfileManagement",
       "ServiceName": "FacilityProfileManagement",

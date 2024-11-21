@@ -2,7 +2,7 @@
   "Routes": [
     {
       "UpstreamPathTemplate": "/gateway/Shared/Country/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Country/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -15,7 +15,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Governorate/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Governorate/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -28,7 +28,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Region/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Region/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -41,7 +41,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Currency/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Currency/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -54,7 +54,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Speciality/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Speciality/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -67,7 +67,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Degree/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Degree/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -80,7 +80,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/Shared/Classification/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/Shared/Classification/{everything}",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "UpstreamHttpMethod": [
@@ -93,7 +93,7 @@
     }
     //{
     //  "UpstreamPathTemplate": "/gateway/Shared/AirPort/{everything}",
-    //  "DownstreamScheme": "https",
+    //  "DownstreamScheme": "http",
     //  "DownstreamPathTemplate": "/Shared/AirPort/{everything}",
     //  "DangerousAcceptAnyServerCertificateValidator": true,
     //  "UpstreamHttpMethod": [
