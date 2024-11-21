@@ -1,0 +1,64 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Facility/Facility/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Facility/Facility/{everything}",
+      "SwaggerKey": "FacilityProfileManagement",
+      "ServiceName": "FacilityProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Facility/FacilityListing/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Facility/FacilityListing/{everything}",
+      "SwaggerKey": "FacilityProfileManagement",
+      "ServiceName": "FacilityProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Facility/FacilityRequest/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Facility/FacilityRequest/{everything}",
+      "SwaggerKey": "FacilityProfileManagement",
+      "ServiceName": "FacilityProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Facility/FacilityWorkSchedule/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Facility/FacilityWorkSchedule/{everything}",
+      "SwaggerKey": "FacilityProfileManagement",
+      "ServiceName": "FacilityProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Facility/Search/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Facility/Search/{everything}",
+      "SwaggerKey": "FacilityProfileManagement",
+      "ServiceName": "FacilityProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

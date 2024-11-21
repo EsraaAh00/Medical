@@ -1,0 +1,86 @@
+[
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItemDetailSetting/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItemDetailSetting/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ItemCategories/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ItemCategories/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItem/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItem/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItemDetail/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItemDetail/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItemPhotos/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItemPhotos/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItemsPricing/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItemsPricing/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/ListingItemsTax/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/ListingItemsTax/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+]

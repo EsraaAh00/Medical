@@ -1,0 +1,13 @@
+[
+  {
+    "UpstreamPathTemplate": "/gateway/System/Files/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/Files/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST"
+    ]
+  }
+
+]

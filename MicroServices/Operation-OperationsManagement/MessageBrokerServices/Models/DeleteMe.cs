@@ -1,0 +1,2 @@
+namespace Operation_OperationsManagement.MessageBrokerServices.Models{
+}

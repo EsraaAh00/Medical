@@ -1,0 +1,22 @@
+{
+  "ErrorLogin": "Check Your Email Or Your Phone And Try Again",
+  "CheckYourPassword": "Check Your Password and Try Again",
+  "User": "User",
+  "SuperAdmin": "SuperAdmin",
+  "ServiceSupplier": "ServiceSupplier",
+  "SalesConsultant": "User",
+  "Moderator": "Moderator",
+  "ContactWithAdmin": "please contact with the admin",
+  "NoWalletBalance": "there No Balance",
+  "NoCountryFounded": "No Country With This Code",
+  "NoCountryForUser": "No Country for this user",
+  "ErrorSignupSameEmail": "This Email Account Is Already Exist",
+  "Approved": "registeration request approved successfuly",
+  "Operation succeeded": "Operation succeeded",
+  "New": "New",
+  "LabOrder": "Lab Order",
+  "SampleTaken": "Sample Taken",
+  "OrderDone": "Order Done",
+  "Paid": "Paid"
+
+}

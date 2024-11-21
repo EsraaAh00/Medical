@@ -1,0 +1,40 @@
+{
+  "Routes": [
+    //{
+    //  "UpstreamPathTemplate": "/gateway/Operation/Ordering/Order/{everything}",
+    //  "UpstreamHttpMethod": [
+    //    "Get",
+    //    "Post"
+    //  ],
+    //  "DownstreamScheme": "http",
+    //  "DownstreamPathTemplate": "/Operation/Ordering/Order/{everything}",
+    //  "SwaggerKey": "OperationsManagement",
+    //  "ServiceName": "OperationsManagement",
+    //  "DangerousAcceptAnyServerCertificateValidator": true
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/gateway/Operation/Ordering/OrderItem/{everything}",
+    //  "UpstreamHttpMethod": [
+    //    "Get",
+    //    "Post"
+    //  ],
+    //  "DownstreamScheme": "https",
+    //  "DownstreamPathTemplate": "/Operation/OrderItem/{everything}",
+    //  "SwaggerKey": "OperationsManagement",
+    //  "ServiceName": "OperationsManagement",
+    //  "DangerousAcceptAnyServerCertificateValidator": true
+    //},
+    {
+      "UpstreamPathTemplate": "/gateway/Operation/Ticket/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Operation/Ticket/{everything}",
+      "SwaggerKey": "OperationsManagement",
+      "ServiceName": "OperationsManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

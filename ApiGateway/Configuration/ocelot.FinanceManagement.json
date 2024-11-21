@@ -1,0 +1,16 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Finance/Transaction/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Finance/Transaction/{everything}",
+      "SwaggerKey": "FinanceManagement",
+      "ServiceName": "FinanceManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/System/Crm/Complaint/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/System/Crm/Complaint/{everything}",
+      "SwaggerKey": "ClientRelationMangement",
+      "ServiceName": "ClientRelationMangement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/Crm/ComplaintAction/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/System/Crm/ComplaintAction/{everything}",
+      "SwaggerKey": "ClientRelationMangement",
+      "ServiceName": "ClientRelationMangement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/Crm/Sanction/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/System/Crm/Sanction/{everything}",
+      "SwaggerKey": "ClientRelationMangement",
+      "ServiceName": "ClientRelationMangement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

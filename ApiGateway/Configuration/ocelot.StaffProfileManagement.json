@@ -1,0 +1,76 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/Staff/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/Staff/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/Search/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/Search/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/StaffAward/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/StaffAward/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/StaffExperience/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/StaffExperience/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/StaffRequest/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/StaffRequest/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Staff/StaffWorkSchedule/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Staff/StaffWorkSchedule/{everything}",
+      "SwaggerKey": "StaffProfileManagement",
+      "ServiceName": "StaffProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

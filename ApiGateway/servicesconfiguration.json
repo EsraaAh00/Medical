@@ -1,0 +1,83 @@
+[
+  {
+    "Name": "System-Authentication",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Client-ClientProfileManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Client-ClientRelationMangement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Facility-FacilityProfileManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Operation-FinanceManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Operation-OperationsManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Staff-StaffProfileManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "System-FilesManagement",
+    "Active": true,
+    "Required": true
+  },
+  {
+    "Name": "Shared-GeneralSharedData",
+    "Active": true,
+    "Required": true
+  }
+
+  //{
+  //  "Name": "System-ServiceProviderProfileMangement",
+  //  "Active": true,
+  //  "Required": true
+  //}
+  //{
+  //  "Name": "Vendor-ListingManagement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+  //{
+  //  "Name": "Vendor-ProfileManagement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+  //{
+  //  "Name": "Listing-HotelListingMangement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+  //{
+  //  "Name": "Listing-RentalListingMangement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+  //{
+  //  "Name": "Listing-AgencyListingMangement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+  //{
+  //  "Name": "Listing-ActivityListingMangement",
+  //  "Active": true,
+  //  "Required": true
+  //},
+]

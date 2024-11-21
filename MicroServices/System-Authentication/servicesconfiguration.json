@@ -1,0 +1,105 @@
+[
+  {
+    "UpstreamPathTemplate": "/gateway/System/Authentication/ResetPassword",
+    "UpstreamHttpMethod": [
+      "Get",
+      "Post"
+    ],
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/Authentication/ResetPassword",
+    "DangerousAcceptAnyServerCertificateValidator": true
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/Authentication/Login",
+    "UpstreamHttpMethod": [
+      "Post"
+    ],
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/Authentication/Login",
+    "DangerousAcceptAnyServerCertificateValidator": true
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/Rank/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/Rank/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/User/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/User/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/UserRoleGroup/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/UserRoleGroup/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/RoleGroup/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/RoleGroup/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/ActionRole/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/ActionRole/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/UserActionRole/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/UserActionRole/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/System/UserActionRole/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/System/UserActionRole/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+]

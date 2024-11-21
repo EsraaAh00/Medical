@@ -1,0 +1,2 @@
+namespace System_ClientRelationMangement.MessageBrokerServices.Models{
+}

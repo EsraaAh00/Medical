@@ -1,0 +1,254 @@
+[
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessType/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessType/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessTypeCategory/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessTypeCategory/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorRequest/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorRequest/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/SubscriptionPlan/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/SubscriptionPlan/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/MarketingPlan/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/MarketingPlan/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/DiscountPlan/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/DiscountPlan/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/Vendor/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/Vendor/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusiness/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusiness/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/Feature/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/Feature/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/Option/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/Option/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessTypeFeatureSetting/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessTypeFeatureSetting/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessFeatureSetting/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessFeatureSetting/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessTypeFacilitySetting/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessTypeFacilitySetting/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessFacility/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessFacility/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessTypeFeature/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessTypeFeature/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessAreaAttraction/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessAreaAttraction/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessGallery/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessGallery/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/PaymentMethod/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/PaymentMethod/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessPaymentMethod/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessPaymentMethod/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/BusinessAffiliationInfo/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/BusinessAffiliationInfo/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Vendor/VendorBusinessPolicy/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamPathTemplate": "/Vendor/VendorBusinessPolicy/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+]

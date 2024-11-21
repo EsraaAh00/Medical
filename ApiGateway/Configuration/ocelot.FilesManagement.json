@@ -1,0 +1,33 @@
+{
+  "Routes": [
+
+    {
+      "UpstreamPathTemplate": "/gateway/System/Files/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/System/Files/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "FilesManagement",
+      "ServiceName": "FilesManagement"
+    },
+
+    {
+      "UpstreamPathTemplate": "/gateway/File/{fileName}",
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/{fileName}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "FilesManagement",
+      "ServiceName": "FilesManagement"
+    }
+
+  ]
+}

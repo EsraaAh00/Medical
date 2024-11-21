@@ -1,0 +1,136 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Client/Client/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/Client/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientAnalysisResult/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientAnalysisResult/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientExternalMedicalReport/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientExternalMedicalReport/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientInsurance/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientInsurance/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientMedicalProfile/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientMedicalProfile/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientMedicalReport/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientMedicalReport/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientPrescribtion/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientPrescribtion/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientTherapyProgram/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientTherapyProgram/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientXray/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientXray/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientCartItem/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientCartItem/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Client/ClientFavoriteItem/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/Client/ClientFavoriteItem/{everything}",
+      "SwaggerKey": "ClientProfileManagement",
+      "ServiceName": "ClientProfileManagement",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}

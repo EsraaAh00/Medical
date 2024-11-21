@@ -1,0 +1,212 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "Authentication",
+      "Config": [
+        {
+          "Name": "Authentication",
+          "Version": "v1",
+          "Service": {
+            "Name": "Authentication",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "FilesManagement",
+      "Config": [
+        {
+          "Name": "FilesManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "FilesManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "GeneralSharedData",
+      "Config": [
+        {
+          "Name": "GeneralSharedData",
+          "Version": "v1",
+          "Service": {
+            "Name": "GeneralSharedData",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "FinanceManagement",
+      "Config": [
+        {
+          "Name": "FinanceManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "FinanceManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "OperationsManagement",
+      "Config": [
+        {
+          "Name": "OperationsManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "OperationsManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "ClientProfileManagement",
+      "Config": [
+        {
+          "Name": "ClientProfileManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "ClientProfileManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "ClientRelationMangement",
+      "Config": [
+        {
+          "Name": "ClientRelationMangement",
+          "Version": "v1",
+          "Service": {
+            "Name": "ClientRelationMangement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "StaffProfileManagement",
+      "Config": [
+        {
+          "Name": "StaffProfileManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "StaffProfileManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "FacilityProfileManagement",
+      "Config": [
+        {
+          "Name": "FacilityProfileManagement",
+          "Version": "v1",
+          "Service": {
+            "Name": "FacilityProfileManagement",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    }
+    //{
+    //  "Key": "VendorProfileManagement",
+    //  "Config": [
+    //    {
+    //      "Name": "VendorProfileManagement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "VendorProfileManagement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "VendorListingManagement",
+    //  "Config": [
+    //    {
+    //      "Name": "VendorListingManagement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "VendorListingManagement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "ActivityListingMangement",
+    //  "Config": [
+    //    {
+    //      "Name": "ActivityListingMangement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "ActivityListingMangement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "AgencyListingMangement",
+    //  "Config": [
+    //    {
+    //      "Name": "AgencyListingMangement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "AgencyListingMangement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "HotelListingMangement",
+    //  "Config": [
+    //    {
+    //      "Name": "HotelListingMangement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "HotelListingMangement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "RentalListingMangement",
+    //  "Config": [
+    //    {
+    //      "Name": "RentalListingMangement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "RentalListingMangement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //},
+    //{
+    //  "Key": "ServiceProviderProfileMangement",
+    //  "Config": [
+    //    {
+    //      "Name": "ServiceProviderProfileMangement",
+    //      "Version": "v1",
+    //      "Service": {
+    //        "Name": "ServiceProviderProfileMangement",
+    //        "Path": "/swagger/v1/swagger.json"
+    //      }
+    //    }
+    //  ]
+    //}
+  ]
+}

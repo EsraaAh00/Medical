@@ -1,0 +1,109 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Country/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Country/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Governorate/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Governorate/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Region/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Region/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Currency/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Currency/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Speciality/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Speciality/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Degree/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Degree/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Shared/Classification/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Shared/Classification/{everything}",
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST"
+      ],
+
+      "SwaggerKey": "GeneralSharedData",
+      "ServiceName": "GeneralSharedData"
+    }
+    //{
+    //  "UpstreamPathTemplate": "/gateway/Shared/AirPort/{everything}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamPathTemplate": "/Shared/AirPort/{everything}",
+    //  "DangerousAcceptAnyServerCertificateValidator": true,
+    //  "UpstreamHttpMethod": [
+    //    "GET",
+    //    "POST"
+    //  ],
+
+    //  "SwaggerKey": "GeneralSharedData",
+    //  "ServiceName": "GeneralSharedData"
+    //}
+
+  ]
+}

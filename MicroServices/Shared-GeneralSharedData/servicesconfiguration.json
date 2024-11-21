@@ -1,0 +1,172 @@
+[
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Country/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Country/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Governorate/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Governorate/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Region/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Region/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Currency/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Currency/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Speciality/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Speciality/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Classification/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Classification/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "UpstreamPathTemplate": "/gateway/Shared/Degree/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamPathTemplate": "/Shared/Degree/{everything}",
+    "DangerousAcceptAnyServerCertificateValidator": true,
+    "UpstreamHttpMethod": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/Aminities/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/Aminities/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //}
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/FeaturesOptions/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/FeaturesOptions/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //},
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/RoomType/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/RoomType/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //},
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/TripType/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/TripType/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //},
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/VehicleType/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/VehicleType/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //},
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/AirPort/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/AirPort/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //},
+  //{
+  //  "UpstreamPathTemplate": "/gateway/Shared/RentalTypes/{everything}",
+  //  "DownstreamScheme": "https",
+  //  "DownstreamPathTemplate": "/Shared/RentalTypes/{everything}",
+  //  "DangerousAcceptAnyServerCertificateValidator": true,
+  //  "UpstreamHttpMethod": [
+  //    "GET",
+  //    "POST",
+  //    "PUT",
+  //    "DELETE"
+  //  ]
+  //}
+]

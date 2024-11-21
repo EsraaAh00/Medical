@@ -1,0 +1,94 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/System/Authentication/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/Authentication/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/Rank/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/Rank/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/User/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/User/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/UserRoleGroup/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/UserRoleGroup/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/RoleGroup/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/RoleGroup/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/ActionRole/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/ActionRole/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/System/UserActionRole/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamScheme":"http",
+      "DownstreamPathTemplate": "/System/UserActionRole/{everything}",
+      "SwaggerKey": "Authentication",
+      "ServiceName": "Authentication",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+
+
+
+
+
+
+  ]
+}
